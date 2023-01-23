@@ -1,0 +1,76 @@
+      <!DOCTYPE html> 
+      <html> 
+      <head> 
+          <title>Node Authentication</title> 
+          <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+          
+      </head> 
+      <body> 
+          
+          <div class="container"> 
+            <h1>Welcome to Cloud Connect</h1> 
+            <div class="datails"> 
+              <div class="card text-xs-center"> 
+                  <br> 
+                <img class="card-img-top" src="<%= pic%>" 
+                  alt="Card image cap"> 
+                  <div class="card-block"> 
+                    <h4 class="card-title">User Details</h4> 
+                    <p class="card-text"> 
+                        <centre>
+                        <strong>name</strong>: <%= user.displayName %><br> 
+                        <strong>email</strong>: <%= user.emails[0].value %><br>
+                    </centre>
+                    </p> 
+                    <a href="/logout" class="btn btn-default">Logout</a> 
+                  </div> 
+              </div> 
+            </div> 
+         </div> 
+       
+      </body> 
+      </html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+
+</head>
+<body>
+    success
+    
+</body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</html> -->
